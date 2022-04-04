@@ -21,8 +21,9 @@ this phase will only use 5 of them).
   the routes?
 - Why might it be important that routes and resources have a conventional structure?
 
-| HTTP Verb | path (URL) | CRUD Action | SQL |
-|---|---|---|---|
+| HTTP Verb | path (URL) | Route name (Index, etc.) | CRUD Action | SQL |
+|---|---|---|---|---|
+|   |  |   |  |  |
 
 **2.** Let's say you have built an app that is a blogging platform. You have a Post
 and an Author model and you have controllers and routes for the CRUD actions
