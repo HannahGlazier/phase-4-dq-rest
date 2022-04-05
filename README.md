@@ -25,6 +25,9 @@ this phase will only use 5 of them).
 |---|---|---|---|---|
 | get  | /books | index  | READ | SELECT * FROM books |
 |post|/books|create|create|INSERT INTO books VALUES(??)|
+|get|/books/:id|show|read|SELECT book FROM books|
+|patch|/books/:id|update|update|UPDATE books set book1 = book2|
+|delete|/books/:id|destroy|delete|DELETE FROM books WHERE book1
 
 **2.** Let's say you have built an app that is a blogging platform. You have a Post
 and an Author model and you have controllers and routes for the CRUD actions
