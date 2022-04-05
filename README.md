@@ -23,7 +23,7 @@ this phase will only use 5 of them).
 
 | HTTP Verb | path (URL) | Route name (Index, etc.) | CRUD Action | SQL |
 |---|---|---|---|---|
-|   |  |   |  |  |
+| get  | /books | index  | READ | SELECT * FROM books |
 
 **2.** Let's say you have built an app that is a blogging platform. You have a Post
 and an Author model and you have controllers and routes for the CRUD actions
